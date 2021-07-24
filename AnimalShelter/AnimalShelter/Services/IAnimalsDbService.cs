@@ -1,21 +1,16 @@
-﻿
-using AnimalShelter.Models;
-using Microsoft.AspNetCore.Http;
+﻿using AnimalShelter.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-
 namespace AnimalShelter.Services
 {
-    public interface IAnimnalsDbService
+    public interface IAnimalsDbService
     {
-        public IAnimnalsDbService GetAnimals(int id);
+        public Animal GetAnimal(int shelterNumber);
         //--- to be added
 
-        public IEnumerable<Person> GetAnimals();
+        public IEnumerable<Animal> GetAnimals();
     }
 }
-
-

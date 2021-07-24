@@ -50,7 +50,8 @@ namespace AnimalShelter
                 };
             });
 
-            services.AddScoped<IPersonsDbService, EfPersonsDbService>();
+            services.AddScoped<IAnimalsDbService, AnimalsDbService>();
+            services.AddScoped<IPersonsDbService, PersonsDbService>();
             services.AddDbContext<ShelterDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DbContext"));

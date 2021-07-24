@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿
+using AnimalShelter.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,10 +16,25 @@ namespace AnimalShelter.Controllers
     [ApiController]
     public class AnimalsController : ControllerBase
     {
-        [HttpGet]
-        public string GetAnimals()
+
+        public IConfiguration _configuration;
+        private readonly IAnimalsDbService _animalsDbService;
+        public AnimalsController(IAnimalsDbService animalsDbService, IConfiguration configuration)
         {
-            return "1, 2, 3";
+            _configuration = configuration;
+            _animalsDbService = animalsDbService;
+        }
+
+        [HttpGet]
+        public IActionResult GetAnimals()
+        {
+            return Ok(_animalsDbService.GetAnimals());
+        }
+
+        [HttpGet("{shelterNumber}")]
+        public IActionResult GetAnimal(int shelterNumber)
+        {
+            return Ok(_animalsDbService.GetAnimal(shelterNumber));
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using AnimalShelter.Configurations;
+using AnimalShelter.DTOs.Responses;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,8 @@ namespace AnimalShelter.Models
 {
     public class ShelterDbContext : DbContext
     {
+
+        //Models
         public DbSet<Person> Person { get; set; }
         public DbSet<Employee> Employee { get; set; }
         public DbSet<Volunteer> Volunteer { get; set; }
@@ -26,8 +29,6 @@ namespace AnimalShelter.Models
         public DbSet<Treatment> Treatment { get; set; }
         public DbSet<Vet_Specialty> Vet_Specialty { get; set; }
         public DbSet<VetVisit> VetVisit { get; set; }
-
-
         public DbSet<Director> Director { get; set; } //to be removed?
         public DbSet<Admin> Admin { get; set; } //to be removed?
 
