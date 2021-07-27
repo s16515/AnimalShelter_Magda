@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Piotr\\Downloads\\inz-schronisko-be\\ReportingService\\AnimalShelter.Application\\AnimalShelter.Application.csproj": {}
+    "C:\\Users\\mjase\\OneDrive\\Dokumenty\\PJATK\\inżynierka\\source code\\inz-schronisko-be-Magda_no_onion\\AnimalShelter\\AnimalShelter.Application\\AnimalShelter.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Piotr\\Downloads\\inz-schronisko-be\\ReportingService\\AnimalShelter.Application\\AnimalShelter.Application.csproj": {
+    "C:\\Users\\mjase\\OneDrive\\Dokumenty\\PJATK\\inżynierka\\source code\\inz-schronisko-be-Magda_no_onion\\AnimalShelter\\AnimalShelter.Application\\AnimalShelter.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Piotr\\Downloads\\inz-schronisko-be\\ReportingService\\AnimalShelter.Application\\AnimalShelter.Application.csproj",
+        "projectUniqueName": "C:\\Users\\mjase\\OneDrive\\Dokumenty\\PJATK\\inżynierka\\source code\\inz-schronisko-be-Magda_no_onion\\AnimalShelter\\AnimalShelter.Application\\AnimalShelter.Application.csproj",
         "projectName": "AnimalShelter.Application",
-        "projectPath": "C:\\Users\\Piotr\\Downloads\\inz-schronisko-be\\ReportingService\\AnimalShelter.Application\\AnimalShelter.Application.csproj",
-        "packagesPath": "C:\\Users\\Piotr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Piotr\\Downloads\\inz-schronisko-be\\ReportingService\\AnimalShelter.Application\\obj\\",
+        "projectPath": "C:\\Users\\mjase\\OneDrive\\Dokumenty\\PJATK\\inżynierka\\source code\\inz-schronisko-be-Magda_no_onion\\AnimalShelter\\AnimalShelter.Application\\AnimalShelter.Application.csproj",
+        "packagesPath": "C:\\Users\\mjase\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mjase\\OneDrive\\Dokumenty\\PJATK\\inżynierka\\source code\\inz-schronisko-be-Magda_no_onion\\AnimalShelter\\AnimalShelter.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Piotr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\mjase\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -33,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Piotr\\Downloads\\inz-schronisko-be\\ReportingService\\AnimalShelter.Domain\\AnimalShelter.Domain.csproj": {
-                "projectPath": "C:\\Users\\Piotr\\Downloads\\inz-schronisko-be\\ReportingService\\AnimalShelter.Domain\\AnimalShelter.Domain.csproj"
+              "C:\\Users\\mjase\\OneDrive\\Dokumenty\\PJATK\\inżynierka\\source code\\inz-schronisko-be-Magda_no_onion\\AnimalShelter\\AnimalShelter.Domain\\AnimalShelter.Domain.csproj": {
+                "projectPath": "C:\\Users\\mjase\\OneDrive\\Dokumenty\\PJATK\\inżynierka\\source code\\inz-schronisko-be-Magda_no_onion\\AnimalShelter\\AnimalShelter.Domain\\AnimalShelter.Domain.csproj"
               }
             }
           }
@@ -93,27 +88,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Piotr\\Downloads\\inz-schronisko-be\\ReportingService\\AnimalShelter.Domain\\AnimalShelter.Domain.csproj": {
+    "C:\\Users\\mjase\\OneDrive\\Dokumenty\\PJATK\\inżynierka\\source code\\inz-schronisko-be-Magda_no_onion\\AnimalShelter\\AnimalShelter.Domain\\AnimalShelter.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Piotr\\Downloads\\inz-schronisko-be\\ReportingService\\AnimalShelter.Domain\\AnimalShelter.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mjase\\OneDrive\\Dokumenty\\PJATK\\inżynierka\\source code\\inz-schronisko-be-Magda_no_onion\\AnimalShelter\\AnimalShelter.Domain\\AnimalShelter.Domain.csproj",
         "projectName": "AnimalShelter.Domain",
-        "projectPath": "C:\\Users\\Piotr\\Downloads\\inz-schronisko-be\\ReportingService\\AnimalShelter.Domain\\AnimalShelter.Domain.csproj",
-        "packagesPath": "C:\\Users\\Piotr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Piotr\\Downloads\\inz-schronisko-be\\ReportingService\\AnimalShelter.Domain\\obj\\",
+        "projectPath": "C:\\Users\\mjase\\OneDrive\\Dokumenty\\PJATK\\inżynierka\\source code\\inz-schronisko-be-Magda_no_onion\\AnimalShelter\\AnimalShelter.Domain\\AnimalShelter.Domain.csproj",
+        "packagesPath": "C:\\Users\\mjase\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mjase\\OneDrive\\Dokumenty\\PJATK\\inżynierka\\source code\\inz-schronisko-be-Magda_no_onion\\AnimalShelter\\AnimalShelter.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Piotr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\mjase\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -152,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
