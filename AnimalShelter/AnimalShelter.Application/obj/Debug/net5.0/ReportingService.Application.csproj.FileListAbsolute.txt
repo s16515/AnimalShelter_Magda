@@ -1,0 +1,11 @@
+C:\Users\Piotr\Downloads\net-core-api-arch-template\ReportingService\ReportingService.Application\bin\Debug\net5.0\ReportingService.Application.deps.json
+C:\Users\Piotr\Downloads\net-core-api-arch-template\ReportingService\ReportingService.Application\bin\Debug\net5.0\ReportingService.Application.dll
+C:\Users\Piotr\Downloads\net-core-api-arch-template\ReportingService\ReportingService.Application\bin\Debug\net5.0\ref\ReportingService.Application.dll
+C:\Users\Piotr\Downloads\net-core-api-arch-template\ReportingService\ReportingService.Application\bin\Debug\net5.0\ReportingService.Application.pdb
+C:\Users\Piotr\Downloads\net-core-api-arch-template\ReportingService\ReportingService.Application\obj\Debug\net5.0\ReportingService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Piotr\Downloads\net-core-api-arch-template\ReportingService\ReportingService.Application\obj\Debug\net5.0\ReportingService.Application.AssemblyInfoInputs.cache
+C:\Users\Piotr\Downloads\net-core-api-arch-template\ReportingService\ReportingService.Application\obj\Debug\net5.0\ReportingService.Application.AssemblyInfo.cs
+C:\Users\Piotr\Downloads\net-core-api-arch-template\ReportingService\ReportingService.Application\obj\Debug\net5.0\ReportingService.Application.csproj.CoreCompileInputs.cache
+C:\Users\Piotr\Downloads\net-core-api-arch-template\ReportingService\ReportingService.Application\obj\Debug\net5.0\ReportingService.Application.dll
+C:\Users\Piotr\Downloads\net-core-api-arch-template\ReportingService\ReportingService.Application\obj\Debug\net5.0\ref\ReportingService.Application.dll
+C:\Users\Piotr\Downloads\net-core-api-arch-template\ReportingService\ReportingService.Application\obj\Debug\net5.0\ReportingService.Application.pdb
