@@ -1,4 +1,7 @@
-﻿using AnimalShelter.Models;
+﻿using AnimalShelter.DTOs.Responses;
+using AnimalShelter.Models;
+using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,20 +12,28 @@ namespace AnimalShelter.Services
     public class AnimalsDbService : IAnimalsDbService
     {
         private readonly ShelterDbContext _context;
-        public AnimalsDbService(ShelterDbContext context)
+        private readonly IMapper _mapper;
+        public AnimalsDbService(ShelterDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
 
-        public Animal GetAnimal(int shelterNumber)
+        public AnimalResponse GetAnimal(int shelterNumber)
         {
-            return _context.Animal.Where(a => a.ShelterNumber == shelterNumber).FirstOrDefault();
+            var animal = _context.Animal.Where(a => a.ShelterNumber == shelterNumber)
+                .Include(req => req.Species)
+                .Include(req => req.Status)
+                .FirstOrDefault();
+            return _mapper.Map<AnimalResponse>(animal);
+              
         }
 
-        public IEnumerable<Animal> GetAnimals()
+        public IEnumerable<AnimalResponse> GetAnimals()
         {
-            return _context.Animal.ToList();
+            var animals = _context.Animal.ToList();
+             return _mapper.Map<IEnumerable<AnimalResponse>>(animals);
         }
     }
 }

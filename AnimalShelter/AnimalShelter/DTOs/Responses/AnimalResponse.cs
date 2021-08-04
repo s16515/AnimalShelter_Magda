@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,7 +17,7 @@ namespace AnimalShelter.DTOs.Responses
 
        // public int IdStatus { get; set; }
         public string Status { get; set; } //do przerobienia z IdStatus
-                                           
+
         // public int IdSpecies { get; set; }
         public string Species { get; set; } //do przerobienia z IdSpecies
     }

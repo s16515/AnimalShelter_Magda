@@ -34,7 +34,13 @@ namespace AnimalShelter.Controllers
         [HttpGet("{shelterNumber}")]
         public IActionResult GetAnimal(int shelterNumber)
         {
-            return Ok(_animalsDbService.GetAnimal(shelterNumber));
+            var animal = _animalsDbService.GetAnimal(shelterNumber);
+            if (animal is null)
+            {
+                return NotFound();
+            }
+            else 
+                return Ok(animal);
         }
     }
 }

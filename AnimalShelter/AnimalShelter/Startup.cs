@@ -52,6 +52,7 @@ namespace AnimalShelter
 
             services.AddScoped<IAnimalsDbService, AnimalsDbService>();
             services.AddScoped<IPersonsDbService, PersonsDbService>();
+            services.AddAutoMapper(this.GetType().Assembly);
             services.AddDbContext<ShelterDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DbContext"));

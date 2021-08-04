@@ -1,4 +1,5 @@
-﻿using AnimalShelter.Models;
+﻿using AnimalShelter.DTOs.Responses;
+using AnimalShelter.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +9,9 @@ namespace AnimalShelter.Services
 {
     public interface IAnimalsDbService
     {
-        public Animal GetAnimal(int shelterNumber);
+        public AnimalResponse GetAnimal(int shelterNumber);
         //--- to be added
 
-        public IEnumerable<Animal> GetAnimals();
+        public IEnumerable<AnimalResponse> GetAnimals();
     }
 }
